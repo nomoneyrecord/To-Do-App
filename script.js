@@ -4,7 +4,9 @@ const addTaskButton = document.getElementById("add-task");
 const taskInput = document.getElementById("task-input");
 const taskList = document.getElementById("task-list")
 
-addTaskButton.addEventListener("click", function() {})
+addTaskButton.addEventListener("click", function() {
+  const taskValue = taskInput.value;
+})
 
 //Build a function "create list" that takes in all variable and generates a new list item when user enters in text box and presses button. Every new item is then add to this list
 
