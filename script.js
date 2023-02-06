@@ -7,8 +7,16 @@ const taskList = document.getElementById("task-list")
 addTaskButton.addEventListener("click", function(e) {
   const taskValue = taskInput.value;
   if (!taskValue) return; 
-  console.log(taskValue.value);
-});
+
+  function printTaskInput() {
+    console.log(taskValue);
+  }
+
+  printTaskInput();
+  });
+
+
+
 
 
 
