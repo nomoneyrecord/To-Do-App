@@ -16,9 +16,16 @@ addTaskButton.addEventListener("click", function(e) {
 function createList(taskValue){
   const newTask = document.createElement("li");
   const paragraph = document.createElement("p");
+  const deleteButton = document.createElement("button");
+  deleteButton.addEventListener("click", function(){
+    newTask.remove();
+    deleteButton.textContent = "Delete"
+  })
   paragraph.textContent = taskValue;
   newTask.appendChild(paragraph);
   taskList.appendChild(newTask);
+  taskInput.value = "";
+  
  
 }
 
