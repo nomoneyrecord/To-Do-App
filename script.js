@@ -19,7 +19,7 @@ function createList(taskValue){
   const deleteButton = document.createElement("button");
   deleteButton.addEventListener("click", function(){
     deleteButton.textContent = "Delete"
-  })
+    console.log("Delete button was click!");  })
   paragraph.textContent = taskValue;
   newTask.appendChild(paragraph);
   newTask.appendChild(deleteButton);
