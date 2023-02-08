@@ -14,11 +14,12 @@ addTaskButton.addEventListener("click", function(e) {
 });
 
 function createList(taskValue){
-  const newTask = document.createElement("p");
-  const lineItem = document.createElement("li");
-  lineItem.textContent = taskValue;
-
-  
+  const newTask = document.createElement("li");
+  const paragraph = document.createElement("p");
+  paragraph.textContent = taskValue;
+  newTask.appendChild(paragraph);
+  taskList.appendChild(newTask);
+ 
 }
 
 //Add event listener that calls a click function to addTaskButton 
