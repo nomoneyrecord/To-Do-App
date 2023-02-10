@@ -28,9 +28,9 @@ function createList(taskValue){
 
   radioBtn.addEventListener("click", function(){
     if(radioBtn.checked) {
-      newTask.style.textDecoration = "line-through";
+      paragraph.style.textDecoration = "line-through";
     } else {
-      newTask.style.textDecoration = "none";
+      paragraph.style.textDecoration = "none";
     }
   });
   
