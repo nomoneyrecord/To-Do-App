@@ -5,21 +5,31 @@ body {
 
 ul {
   text-align: center;
-  background-color: aqua;
   list-style-type: none;
+  padding: 0px;
+  align-items: center;
+
 }
 
-#div1 {
-  margin: 0; 
-}
+
 
 #div2 {
-  height: auto;
   width: 300px;  
   margin: auto;
-
 }
 
-form {
-  justify-content: center;
+li {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  overflow-wrap: break-word;
+  
 }
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+
+
