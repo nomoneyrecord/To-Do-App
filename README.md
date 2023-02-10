@@ -2,7 +2,7 @@
 
 _Basic To-Do List application written with HTML, Javascript, and CSS_
 
-Play it [here](https://nomoneyrecord.github.io/To-Do-App/)
+Try it [here](https://nomoneyrecord.github.io/To-Do-App/)
 
 ![Image](/To-Do-App.png)
 
